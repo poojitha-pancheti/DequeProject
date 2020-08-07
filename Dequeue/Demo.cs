@@ -2,12 +2,12 @@
 
 namespace Dequeue
 {
-    class DequeueA
+    class Demo
     {
         static void Main(string[] args)
         {
             int choice, x;
-            DequeueA1 dq = new DequeueA1(8);
+            DequeA dq = new DequeA(8);
             while(true)
             {
                 Console.WriteLine("1.Insert at the front end");

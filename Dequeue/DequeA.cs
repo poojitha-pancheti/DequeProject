@@ -7,18 +7,18 @@ using System.Text;
 
 namespace Dequeue
 {
-    class DequeueA1
+    class DequeA
     {
         private int[] queueArray;
         private int front;
         private int rear;
-        public DequeueA1()
+        public DequeA()
         {
             queueArray = new int[10];
             front = -1;
             rear = -1;
         }
-        public DequeueA1(int maxSize)
+        public DequeA(int maxSize)
         {
             queueArray = new int[maxSize];
             front = -1;
